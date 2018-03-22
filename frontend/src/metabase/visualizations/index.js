@@ -13,6 +13,7 @@ import MapViz from "./visualizations/Map.jsx";
 import ScatterPlot from "./visualizations/ScatterPlot.jsx";
 import Funnel from "./visualizations/Funnel.jsx";
 import ObjectDetail from "./visualizations/ObjectDetail.jsx";
+import Gauge from "./visualizations/Gauge.jsx";
 import { t } from "c-3po";
 import _ from "underscore";
 
@@ -133,5 +134,6 @@ registerVisualization(PieChart);
 registerVisualization(MapViz);
 registerVisualization(Funnel);
 registerVisualization(ObjectDetail);
+registerVisualization(Gauge);
 
 export default visualizations;
